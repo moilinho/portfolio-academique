@@ -1,10 +1,10 @@
 import React from "react";
 import Particles from "react-tsparticles";
-import { loadLinksPreset } from "tsparticles-preset-links";
+import { loadFull } from "tsparticles";
 
 const ConstellationBackground: React.FC = () => {
   const particlesInit = async (engine: any) => {
-    await loadLinksPreset(engine);
+    await loadFull(engine);
   };
 
   return (
