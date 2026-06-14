@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.0.1",
   "type": "module",
-  "homepage": "https://moilinho.github.io/Portfolio/",
+  "homepage": "https://moilinho.github.io/portfolio-academique/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
