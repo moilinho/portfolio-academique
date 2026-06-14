@@ -29,6 +29,16 @@ const projets = [
   },
   {
     id: 3,
+    titre: "SAE S6 — Voronoi",
+    image: `${import.meta.env.BASE_URL}voronoi_project_preview.png`,
+    descriptionCourte: "Développement d'une application de génération de diagrammes de Voronoi.",
+    descriptionDetaillee: `Ce projet a consisté à concevoir et développer une application permettant de générer des diagrammes de Voronoi, sans utilisation d'IA en premier temps, puis avec de l'IA et de comparer les résultats. L'objectif était également de lister les avantages et inconvénients de chaque approche.`,
+    pdf: "#",
+    github: "https://github.com/RobertGriffaton/SAE_S6_Voronoi",
+    zip: "#"
+  },
+  {
+    id: 4,
     titre: "SAE Java — Calculatrice Orientée Objet",
     image: `${import.meta.env.BASE_URL}java_project_preview.png`,
     descriptionCourte: "Création d'une calculatrice Java orientée objet gérant les opérations de base.",

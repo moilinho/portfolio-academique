@@ -1,6 +1,8 @@
 {
   "name": "portfolio",
   "version": "0.0.1",
+  "type": "module",
+  "homepage": "https://moilinho.github.io/Portfolio/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

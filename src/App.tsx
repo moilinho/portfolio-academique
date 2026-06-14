@@ -1,13 +1,16 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import About from "./pages/About";
-import Formation from "./pages/Formation";
+import Formation from "./pages/Parcours";
 import Competences from "./pages/Competences";
 import Contact from "./pages/Contact";
 import ConstellationBackground from "./components/ConstellationBackground";
 import { Contact as ContactIcon } from "lucide-react";
 import Projects from "./pages/Projects";
 import Footer from "./components/Footer";
+import Stage from "./pages/Stage";
+import AutoEvaluation from "./pages/AutoEvaluation";
+import Parcours from "./pages/Parcours";
 
 function App() {
   return (
@@ -18,8 +21,10 @@ function App() {
         <main className="pt-20">
           <About />
           <Competences />
-          <Formation />
+          <AutoEvaluation />
+          <Parcours />
           <Projects />
+          <Stage />
           <Contact />
           <Footer />
         </main>

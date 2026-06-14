@@ -6,8 +6,10 @@ const Navbar: React.FC = () => {
   const sections = [
     { id: "presentation", label: "Présentation" },
     { id: "competences", label: "Compétences" },
-    { id: "formation", label: "Formation" },
+    { id: "autoevaluation", label: "Auto-évaluation" },
+    { id: "parcours", label: "Parcours" },
     { id: "projets", label: "Projets" },
+    { id: "stage", label: "Bilan de stage" },
     { id: "contact", label: "Contact" },
   ];
 
